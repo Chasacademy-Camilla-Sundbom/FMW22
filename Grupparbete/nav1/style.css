@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+
+}
+.main-header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 80px;
+    border-radius: 5px;
+}
+
+.main-nav {
+    width: 50%;
+}
+.main-nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: none;
+}

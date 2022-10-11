@@ -1,0 +1,50 @@
+@media (max-width: 600px) {
+    nav { display: flex;
+        justify-content: space-around;
+    }
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    background-color: darkblue;
+    display: flex;
+    width: 350px;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5px 
+}
+
+i{
+    padding: 4px;
+}
+
+a{
+    color: white;
+    text-decoration-color: red;
+    text-underline-offset: 4px;
+}
+
+
+
+
+
+
+
+
+
+
