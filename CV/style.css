@@ -1,5 +1,5 @@
 :root {
-  --border-radius: 1rem
+  --border-radius: 1rem;
 }
 
 html,
@@ -32,16 +32,15 @@ img {
 }
 
 .wrapper {
-  background-color: rgba(242, 242, 242, .5);
+  background-color: rgba(242, 242, 242, 0.5);
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 1rem;
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
-
-.wrapper>img {
+.wrapper > img {
   box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px;
 }
 
