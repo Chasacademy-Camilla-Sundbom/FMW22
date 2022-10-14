@@ -53,7 +53,9 @@ img {
 .child {
   flex: 1;
 }
-
+.activ-page{
+  font-size: 1.6em;
+}
 /* media queries  */
 
 @media only screen and (min-width: 768px) {
