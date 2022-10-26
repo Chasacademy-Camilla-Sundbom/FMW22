@@ -1,7 +1,7 @@
-.showSum {
-    display: none;
-  }
-  
-  .hide {
-    display: none;
-  }
+.hideme {
+  display: none;
+}
+
+.danger {
+  color: red;
+}
