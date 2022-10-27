@@ -2,14 +2,25 @@ const message3 = document.getElementById("message3");
 const message2 = document.getElementById("message2");
 const message1 = document.getElementById("message1");
 
-const randomNumber = Math.floor(Math.random() * 101);
+function newRandomNumber() {
+  return Math.floor(Math.random() * 101);
+}
+
 let no_of_guesses = 0;
 const guessedNumbers = [];
+const randomNumber = newRandomNumber();
 
 function guessNumber() {
   const guess = document.getElementById("guess").value;
 
   switch (true) {
+    case no_of_guesses == 5:
+      message3.innerText = "No more guesses!";
+      no_of_guesses = 0;
+      guessedNumbers.length = 0;
+      newRandomNumber();
+      break;
+
     case guess > 100:
       message3.innerText = "Please pick a number between 0 and 100!";
       break;
