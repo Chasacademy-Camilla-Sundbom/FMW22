@@ -1,3 +1,19 @@
+let companies = [
+  {
+    name: "Big Corporation",
+    numberOfEmployees: 10000,
+    ceo: "Camilla Sundbom",
+    rating: 3.6,
+  },
+  {
+    name: "Small Startup",
+    numberOfEmployees: 3,
+    ceo: null,
+    rating: 4.3,
+  },
+];
+console.log(companies);
+
 /*function displayDate() {
   document.getElementById("demo").innerHTML = Date();
 }*/
