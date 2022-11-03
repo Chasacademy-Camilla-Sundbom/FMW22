@@ -1,4 +1,4 @@
-/*let companies = [
+let companies = [
   {
     name: "Big Corporation",
     numberOfEmployees: 10000,
@@ -12,7 +12,7 @@
     rating: 4.3,
   },
 ];
-console.log(companies);*/
+console.log(companies);
 
 /*function displayDate() {
   document.getElementById("demo").innerHTML = Date();

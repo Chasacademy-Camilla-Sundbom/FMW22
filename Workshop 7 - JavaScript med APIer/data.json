@@ -1,0 +1,9 @@
+{
+ "todo": [
+    { "title": "vakna", "finish": true },
+    { "title": "vakna", "finish": true },
+    { "title": "vakna", "finish": true },
+    { "title": "vakna", "finish": true },
+    { "title": "Gå och lägg dig", "finish": false }
+ ]
+}
