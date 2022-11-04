@@ -17,10 +17,6 @@ async function getSomething() {
 
       list.appendChild(listItem);
     });
-
-    //hämta vald data (objekt, array)
-
-    //Lägg till DOM efter preferenser
   } else {
     console.log("HTTP-Error:" + respons.status);
   }
