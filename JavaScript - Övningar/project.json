@@ -1,15 +1,41 @@
-[
+{
+  "squadName" : "Super Hero Squad",
+  "homeTown" : "Tyresö",
+  "formed" : 2022,
+  "secretBase" : "Super tower",
+  "active" : true,
+  "members" : [
     {
-        "name": "Big Corporation",
-        "numberOfEmployees": 10000,
-        "ceo": "Camilla Sundbom",
-        "rating":3.6
-    },    
+      "name" : "Molecule Man",
+      "age" : 29,
+      "secretIdentity" : "Dan Jukes",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
+    },
     {
-        "name":"Small Startup", 
-        "numberOfEmployees": 3,
-        "ceo": null,
-        "rating": 4.3
+      "name" : "Madame Uppercut",
+      "age" : 39,
+      "secretIdentity" : "Jane Wilson",
+      "powers" : [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name" : "Eternal Flame",
+      "age" : 1000000,
+      "secretIdentity" : "Unknown",
+      "powers" : [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ]
     }
-]
-
+  ]
+}
