@@ -1,0 +1,30 @@
+{
+    "employment":[
+        {
+            "timeLaps": "2022 - 2022 Office Depot AB",
+            "title": "Seller",
+            "information":"Exceptional service to customers. Picked up goods and received. Cleaned up and rebuilt the store a bit. aving a good knowledge of the products is important to me as I can confidently support the buyers in their decision."
+        },
+        {
+            "timeLaps": "2020 - 2022 Komvux/Nti",
+            "title": "Student",
+            "information":"The purpose of these courses was to broaden my knowledge in different areas, such as Swedish, English, mathematics, social studies. I now master programs like C#. Has in-depth knowledge in computer and network technology and has a deeper understanding of English."
+        },
+        {
+            "timeLaps": "2019 - 2020 ANHA GmbH & Co. KG. KG Filial Sweden",
+            "title": "Order Administrator/Sales Support",
+            "information": "Place orders in our own system. Send invoices to customers and suppliers.Loose picking lists in internal systems. Answered questions and resolved situations over the phone." 
+        },
+        {
+            "timeLaps": "2016 - 2019 Office Depot AB",
+            "title": "Seller",
+            "information": "Started in the sales pool in consultation with the then regional manager, where the goal was to help different stores achieve goals and see potential for improvement, had regular meetings with Rm. Exceptional service to customers. Picked up goods and received. Cleaned up and rebuilt the store a bit. Having a good knowledge of the products is important to me as I can confidently support the buyers in their decision."
+        }
+    ],
+    "education":[
+        "2022 Ongoing Chas Academy Front-end developer mobil & web",
+        "2020 - 2022 Komvux, Scattered courses.",
+        "2017 BAM course handels, main safety representative Office Depot AB",
+        "2000 - 2003 Stockholm Hotel & Restaurant School."
+    ]
+}
