@@ -7,11 +7,6 @@
             "description":"Exceptional service to customers. Picked up goods and received. Cleaned up and rebuilt the store a bit. aving a good knowledge of the products is important to me as I can confidently support the buyers in their decision."
         },
         {
-            "timeLaps": "2020 - 2022 Komvux/Nti",
-            "title": "Student",
-            "information":"The purpose of these courses was to broaden my knowledge in different areas, such as Swedish, English, mathematics, social studies. I now master programs like C#. Has in-depth knowledge in computer and network technology and has a deeper understanding of English."
-        },
-        {
             "timeLaps": "2019 - 2020", 
             "employer": "SANHA GmbH & Co. KG. KG Filial Sweden",
             "title": "Order Administrator/Sales Support",
@@ -26,9 +21,31 @@
     ],
 
     "education":[
-        "2022 Ongoing Chas Academy Front-end developer mobil & web",
-        "2020 - 2022: Komvux, Scattered courses.",
-        "2017 BAM course handels, main safety representative Office Depot AB",
-        "2000 - 2003 Stockholm Hotel & Restaurant School."
+        {
+            "timeLaps": "2022 - Ongoing",
+            "school": "Chas Academy",
+            "course": "Front-end developer mobil & web",
+            "description": "Place orders in our own system. Send invoices to customers and suppliers.Loose picking lists in internal systems. Answered questions and resolved situations over the phone." 
+         },
+        {
+            "timeLaps": "2020 - 2022",
+            "school": "Komvux/Nti",
+            "course": "Scatterd courses",
+            "description": "The purpose of these courses was to broaden my knowledge in different areas, such as Swedish, English, mathematics, social studies. I now master programs like C#. Has in-depth knowledge in computer and network technology and has a deeper understanding of English."
+        },
+        {
+            "timeLaps": "2017",
+            "school": "Trade Unions",
+            "course": "BAM",
+            "description":"Main safety representative Office Depot AB"
+        },
+        {
+            "timeLaps": "2000 - 2003",
+            "school": "Stockholm's hotel and restaurant school",
+            "course": "waitress",
+            "description": "Completed a three-year training in hotel and restaurant, where the end result was waitressing"
+        }
     ]
+    
 }
+
