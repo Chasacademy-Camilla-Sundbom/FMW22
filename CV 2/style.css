@@ -57,43 +57,6 @@ img {
   font-size: 1.6em;
 }
 
-* {
-  box-sizing: border-box;
-}
-.body {
-  background-color: #edeef6;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
-}
-
-.button {
-  background-color: darkblue;
-  border: 0;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  color: #fff;
-  font-size: 14px;
-  padding: 10px 25px;
-}
-
-.modal-container {
-  background-color: (0, 0, 0, 0.3);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  opacity: 0;
-  pointer-events: none;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vh;
-}
-
 .modal {
   display: none;
   position: fixed;
@@ -118,7 +81,6 @@ img {
 
 .close {
   color: #aaaaaa;
-  float: right;
   font-size: 28px;
   font-weight: bold;
 }
