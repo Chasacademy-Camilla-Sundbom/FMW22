@@ -1,4 +1,0 @@
-[submodule "CV2"]
-	path = CV2
-	url = https://github.com/Chasacademy-Camilla-Sundbom/CV2.git
-	ignore = dirty
