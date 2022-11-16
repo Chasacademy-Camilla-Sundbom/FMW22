@@ -1,6 +1,9 @@
 [submodule "CV2"]
 	path = CV2
-	url = https://github.com/Chasacademy-Camilla-Sundbom/CV2.git
+	url = https://github.com/Chasacademy-Camilla-Sundbom/CV2
 [submodule "Workshop 6 - JavaScript CodeJam"]
 	path = Workshop 6 - JavaScript CodeJam
-	url = https://github.com/Chasacademy-Camilla-Sundbom/Guessing-Game.git
+	url = https://github.com/Chasacademy-Camilla-Sundbom/Guessing-Game
+[submodule "Lektion_1_CRUD"]
+	path = Lektion_1_CRUD
+	url = https://github.com/Chasacademy-Camilla-Sundbom/Lektion_1_CRUD
