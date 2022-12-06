@@ -1,0 +1,16 @@
+html {
+  background: #f2f1f4;
+  color: #19171c;
+}
+
+.description {
+  display: none;
+}
+
+.active + .description {
+  display: block;
+}
+
+.accordion div:nth-child(4n + 2) {
+  background: pink;
+}
