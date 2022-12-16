@@ -1,7 +1,7 @@
-// Class - En function för att skapa obejct
+// Klass - En funktion som skapar object.
 
-//Tidigare sättet
-function creatObjekt(name, age) {
+// Tidigare sättet
+function createObject(name, age) {
   const obj = {
     name: name,
     age: age,
@@ -10,19 +10,26 @@ function creatObjekt(name, age) {
   return obj;
 }
 
-const myObj = creatObjekt("Camilla", 38);
+const myObj = createObject("David", 50);
 
-// En frukt class - En function som skapar fruktobject
-function creatFruit(name, isSour, rating) {
+// En Frukt class - En funktion som skapar fruktobject ()
+function createFruit(name, isSour, rating) {
+  // const fruit = {
+  //   name: name,
+  //   isSour: isSour,
+  //   rating: rating,
+  // }
+  // return fruit;
+
   return {
     name: name,
     isSour: isSour,
     rating: rating,
   };
 }
-const Fruits = creatFruit("Apple", true, 4);
+const fruit = createFruit("Apple", true, 4);
 
-//Nytt för idag:
+// Nytt för idag:
 class Fruit {
   constructor(name, isSour, rating) {
     this.name = name;
@@ -34,7 +41,7 @@ class Fruit {
     if (this.rating >= 3) {
       return this.name + " is tasty!";
     } else {
-      return this.name + "is not tasty";
+      return this.name + " is not tasty";
     }
   }
 }
@@ -46,9 +53,15 @@ console.log(fruit2.describe());
 const rottenOrange = new Fruit("Orange", false, 1);
 console.log(rottenOrange.describe());
 
-// Uppgift 1. Skapa en class som heter rectangle med variablerna: width, heigt.
-// Uppgift 2. Skapa en area- function i Rectangle som räknar ut arena av rektangeln.
-// Uppgift 3. Skapa en variabel som innehåller en rectangle obj och logga arean
+// Uppgift 1. Skapa en klass Rectangle med variablerna: width, height.
+// Uppgift 2. Skapa en area-function i Rectangle som räknar ut arean av rektangeln (bredden * höjden)
+// Uppgift 3. Skapa en variabel som innehåller ett rektangel-object och logga arean av den.
+
+class Triangle {
+  constructor(side) {
+    this.side = side;
+  }
+}
 
 class Rectangle {
   constructor(width, height) {
@@ -62,9 +75,9 @@ class Rectangle {
 }
 
 const rectangle = new Rectangle(10, 5);
-console.log("the area is:", rectangle.area());
+console.log("the area is: ", rectangle.area());
 
-// Arv - Utöka en klass med ny funktionalitet
+//Arv - Utöka en klass med ny funktionalitet
 
 class Square extends Rectangle {
   constructor(length) {
@@ -73,10 +86,11 @@ class Square extends Rectangle {
 }
 
 const square = new Square(5);
-console.log("Square area:", square.area());
+const s2 = new Square(10);
 
-// Arv- Skriv över en funktion (metoder) med arv.
+console.log("Square area: ", square.area(), s2.area());
 
+// Arv - Skriv över funktioner (metoder) med arv.
 class Animal {
   constructor(name) {
     this.name = name;
@@ -87,12 +101,12 @@ class Animal {
   }
 }
 
-const animal = new Animal("Mouse"); //skapar en instans
+const animal = new Animal("Mouse"); // Skapa en instans
 animal.speak();
 
 class Dog extends Animal {
+  // Override
   speak() {
-    //Override
     console.log(`${this.name} barks`);
   }
 }

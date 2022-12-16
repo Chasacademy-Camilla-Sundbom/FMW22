@@ -1,15 +1,15 @@
-// OOP -Object Oirented Programming
-// Data  & funktionallitet på samma ställe
+// OOP - Object Oriented Programming
+// Data och funktionallitet på samma ställe.
 
-const persons = {
+const personObj = {
   name: "Fred",
   updateName: (name) => {
-    persons.name = name;
+    personObj.name = name;
   },
 };
 
-//Function programming
-// Data & funktionallitete separeras.
+// Functional programming
+// Data och funktionallitet separeras.
 
 const person = {
   name: "Joe",
@@ -19,11 +19,12 @@ const person = {
 function updatePersonAge(personObj, age) {
   personObj.age = age;
 }
+
 updatePersonAge(person, 40);
 
+// skapa ny data som bygger på den tidigare.
 const numbers = [1, 2, 3];
-// skapr ny data som bygger på den tidgare
 const numbers2 = numbers.map((item) => {
-  //[2,3,4]
+  // [2, 3, 4]
   item + 1;
 });
